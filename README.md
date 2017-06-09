@@ -5,7 +5,7 @@ This project is an attempt to reproduce with CSS, the (R.I.P) [Firefox's 3D Dom 
 
 
 -----
-<img src="https://puu.sh/wfvbt/63a263b699.gif">
+<img src="demo.gif">
 
 
 ## Bookmarklets
