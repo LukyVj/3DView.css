@@ -5,17 +5,17 @@
   transform-style: preserve-3d;
   -webkit-perspective: 600px;
   perspective: 600px;
-  -webkit-transform: rotateY(16deg) scale(0.75) translateX(5%) translateY(-5%) skewY(-6deg);
-  transform: rotateY(16deg) scale(0.75) translateX(5%) translateY(-5%) skewY(-6deg); }
+  -webkit-transform: rotateY(16deg) translateX(5%) translateY(5%) skewY(-6deg);
+  transform: rotateY(16deg) translateX(5%) translateY(5%) skewY(-6deg); }
   [debug=true] * {
     outline: 1px solid lime;
     outline-offset: -1px;
-    box-shadow: 0 0 100px rgba(0, 0, 0, 0.15), -2px -2px 0 rgba(0, 0, 0, 0.6); }
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.15), -1px -1px 0 rgba(0, 0, 0, 0.1), -2px -2px 0 rgba(0, 0, 0, 0.1), -3px -3px 0 rgba(0, 0, 0, 0.1), -4px -4px 0 rgba(0, 0, 0, 0.1), -5px -5px 0 rgba(0, 0, 0, 0.1), -6px -6px 0 rgba(0, 0, 0, 0.1); }
   [debug=true] *:before,
   [debug=true] *:after {
     outline: 1px solid #0ff;
     outline-offset: -1px;
-    box-shadow: 0 0 100px rgba(0, 0, 0, 0.15), -2px -2px 0 rgba(0, 0, 0, 0.6); }
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.15), -1px -1px 0 rgba(0, 0, 0, 0.1), -2px -2px 0 rgba(0, 0, 0, 0.1), -3px -3px 0 rgba(0, 0, 0, 0.1), -4px -4px 0 rgba(0, 0, 0, 0.1), -5px -5px 0 rgba(0, 0, 0, 0.1), -6px -6px 0 rgba(0, 0, 0, 0.1); }
   [debug=true] *:after {
     outline-color: #f0f; }
   [debug=true] *:hover {
