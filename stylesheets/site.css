@@ -27,6 +27,9 @@ h4 {
     display: inline-block;
     margin-bottom: 1em; }
 
+a[href*="javascript:"] {
+  cursor: move; }
+
 small {
   opacity: 0.6; }
 
