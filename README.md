@@ -2,11 +2,38 @@
 This project is an attempt to reproduce with CSS, the (R.I.P) [Firefox's 3D Dom view](https://developer.mozilla.org/en/docs/Tools/3D_View) ( aka tilt 3D )
 
 ----- 
+Using css transforms, outline and shadows, I tried to make it easier for everyone to understand how the elements on a webpage are organised.
+
+## Usage
+Load one of the three 3DView source files on your website: 
+```html
+<link rel="stylesheet" src="path/to/3DView-left.css" />
+```
+
+And add the debug attribute to your `<html>` or `<body>` tag.
+```html
+<html debug="true">
+```
+
+### Sass
+There is a Sass mixin that helps you making the maximum out of this technique :
+
+```sass
+[debug=true] {
+  @include debugView(<deepness>, <property>)
+}
+``` 
+| Name  | Description |
+| ------------- | ------------- |
+| &lt;deepness>  |  Numeric - Indentation deepness ( * > * > * [...] )  |
+| &lt;property>  |  String - Property to offset ( left, margin-left, transform )  |
 
 
------
-<img src="demo.gif">
 
+## Demo: 
+<details>
+  <img src="demo.gif" />
+</details>
 
 ## Bookmarklets
 3DView-left:
