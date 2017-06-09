@@ -5,8 +5,8 @@
   transform-style: preserve-3d;
   -webkit-perspective: 600px;
   perspective: 600px;
-  -webkit-transform: rotateY(16deg) translateX(5%) translateY(5%) skewY(-6deg);
-  transform: rotateY(16deg) translateX(5%) translateY(5%) skewY(-6deg); }
+  -webkit-transform: rotateY(16deg) scale(0.9) translateX(5%) translateY(5%) skewY(-6deg);
+  transform: rotateY(16deg) scale(0.9) translateX(5%) translateY(5%) skewY(-6deg); }
   [debug=true] * {
     outline: 1px solid lime;
     outline-offset: -1px;
