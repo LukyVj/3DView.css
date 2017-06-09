@@ -36,6 +36,9 @@ h4 {
   }
 }
 
+a[href*="javascript:"] {
+  cursor: move
+}
 small {
   opacity: 0.6;
 }
