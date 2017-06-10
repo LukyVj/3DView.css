@@ -2,10 +2,11 @@
 https://lukyvj.github.io/3DView.css/
 
 
-This project is an attempt to reproduce with CSS, the (R.I.P) [Firefox's 3D Dom view](https://developer.mozilla.org/en/docs/Tools/3D_View) ( aka tilt 3D )
+This project is an attempt to reproduce the (R.I.P) [Firefox's 3D Dom view](https://developer.mozilla.org/en/docs/Tools/3D_View) ( aka tilt 3D ) with CSS. 
 
 -----
-Using css transforms, outline and shadows, I tried to make it easier for everyone to understand how the elements on a webpage are organised.
+
+Using CSS transforms, outline and shadows, I tried to make it easier for everyone to understand how the elements on a webpage are organised.
 
 ## Usage
 Load one of the three 3DView source files on your website:
@@ -35,6 +36,7 @@ There is a Sass mixin that helps you making the maximum out of this technique :
 
 ## Demo:
 <details>
+  <summary>Demo on Algolia.com</summary>
   <img src="demo.gif" />
 </details>
 
