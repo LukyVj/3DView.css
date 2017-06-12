@@ -8,6 +8,10 @@ This project is an attempt to reproduce the (R.I.P) [Firefox's 3D Dom view](http
 
 Using CSS transforms, outline and shadows, I tried to make it easier for everyone to understand how the elements on a webpage are organised.
 
+|  Algolia.com  | CSS-Tricks.com  | Github.com   |
+| ------------- | ------------- | ------------- |
+| ![](https://puu.sh/whT8Y/1865c0ed65.png) | ![](https://puu.sh/whT9k/4e8ce90169.png)  | ![](https://puu.sh/whT9j/4c7cb07327.png)  |
+
 ## Usage
 Load one of the three 3DView source files on your website:
 ```html
